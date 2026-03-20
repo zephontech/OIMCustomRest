@@ -7,7 +7,7 @@ It wraps OIM lookup utility calls and exposes HTTP endpoints for:
 - creating lookup types
 - creating/updating/deleting lookup entries
 
-This supports the migration away from local AMPS lookup tables to OIM lookup data (`lku`/`lkv`).
+
 
 ## Project Purpose
 
