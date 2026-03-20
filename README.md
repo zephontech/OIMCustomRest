@@ -1,6 +1,6 @@
 # OIMRestJar
 
-`OIMRestJar` is the OIM-facing REST layer used by `RoleManagerSB` for lookup operations.
+`OIMRestJar` is the OIM-facing REST layer used for lookup operations.
 
 It wraps OIM lookup utility calls and exposes HTTP endpoints for:
 - reading lookup values
