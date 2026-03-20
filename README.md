@@ -65,20 +65,3 @@ ant jar
 Main Ant file:
 - `build.xml`
 
-## Integration Notes
-
-- `RoleManagerSB` should call these endpoints for lookup writes.
-- `RoleManagerSB` lookup reads are expected to come from OIM (`lku`/`lkv`) and not AMPS lookup tables.
-- Keep lookup code naming consistent with pattern:
-  - `Lookup.AMPS.Roles.<TypeCode>`
-
-## Error Handling
-
-- Missing required params return `400`.
-- Backend/OIM failures return `500` with message body.
-
-## Non-Goals
-
-- No bulk import API in this project.
-- No API to delete entire lookup definitions.
-- No enable/disable API for lookup values.
