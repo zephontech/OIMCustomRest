@@ -51,6 +51,19 @@ Base path: `/api/v1`
 - `src/oracle/iam/identityrest/lookups/LookuprestServiceImpl.java`
   - Service wrapper that delegates to `OIMlookupUtilities`.
 
+## Dependencies
+12C Jars
+jersey-core-1.18
+jersey-client-1.18
+jersey-servlet-1.18
+jersey-server-1.18
+javax.servlet.javax.servlet-api
+
+14C Jars
+jersey-client-2.45
+jakarta.ws.rs-api-2.1.5
+jakarta.xml.bind-api
+jakarta.servlet-api-4.0.2
 ## Build
 
 This project uses the NetBeans/Ant build layout.
